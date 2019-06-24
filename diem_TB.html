@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DiemTB</title>
+</head>
+<body>
+    <script>
+        let DiemLy;
+        let DiemHoa;
+        let DiemSinh;
+        DiemLy = prompt("Nhập điểm lý ");
+        DiemHoa = prompt("Nhập điểm hoá ");
+        DiemSinh = prompt("Nhập điểm sinh ");
+        let ly = parseFloat(DiemLy);
+        let Hoa = parseFloat(DiemHoa);
+        let Sinh = parseFloat(DiemSinh);
+        let DiemTB = (ly + Hoa + Sinh )/3;
+        DiemTB.toFixed(2);
+        document.write("điểm Trung Bình = " + DiemTB.toFixed(2));
+    </script>
+
+</body>
+</html>
